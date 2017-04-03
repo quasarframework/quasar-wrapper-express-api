@@ -1,5 +1,6 @@
-Quasar app wrapper for an express API backend
+Quasar app wrapper for an API backend
 ---
 
 * WIP
-* Full frontend and backend solution in one project folder, with Express for backend.
+* Full frontend and backend solution in one project folder
+* First API backend options: express, feathersjs, graphql
