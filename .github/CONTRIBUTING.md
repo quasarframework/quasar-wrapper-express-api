@@ -47,7 +47,7 @@ Hi! I’m really excited that you are interested in contributing to Quasar. Befo
 
 You will need [Node.js](http://nodejs.org) **version 4+** along [NPM](https://docs.npmjs.com/getting-started/installing-node). Read `package.json` and take notice of the scripts you can use.
 
-After cloning the repo, run inside the backend subfolders (`/express`, etc):
+After cloning the repo, run inside `/template` folder:
 
 ``` bash
 $ npm install
