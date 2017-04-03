@@ -3,21 +3,34 @@
 # Quasar Framework Express API Wrapper
 > Build full web apps with Quasar/Express as a frontend/backend solution. Currently **work in progress**.
 
-### Wrap Quasar App
+## Wrap Quasar App
 `$ quasar wrap api express`
 
-### Running for development
+## Running for development
 Make sure you keep running your frontend Quasar app (from root project folder): `$ quasar dev`
 
 Then from the backend wrapper folder run the server-side app: `$ npm run dev`
 
-### Bulding for production
+## Bulding for production
 Build your frontend Quasar app (from root project folder): (`$ quasar build`).
 
 Then from the backend wrapper folder build the server-side app: `$ npm run build`
 
-### Running in production
+## Running in production
 From the backend wrapper folder run the server-side app: `$ npm run prod`
+
+# What exactly provides this wrapper ?
+> Mainly server-side code with babel integration to support ES2017.
+
+The key points are the following:
+- **src** directory host server-side code with a server entry point **index.js** that simply start an Express server
+- **babel CLI** is used as a development dependency to transpile server-side code
+- **dist** output directory is for transpiled backend files
+- npm **clean** script cleans up transpiled code
+- npm **dev** script runs the server in development mode on port 8081 by default (see **config** directory), client should be served as usual with Webpack
+- npm **prod** script runs the server in production mode and serve client production version with Express
+- **nodemon** is used as development dependency to watch changes in server side code and restart transpilation/server when required
+- server-side **debug** mode in node is activated by default for development
 
 ## License
 
