@@ -1,4 +1,4 @@
-Quasar app template with frontend and express backend
+Quasar app wrapper for an express API backend
 ---
 
 * WIP
