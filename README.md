@@ -5,10 +5,12 @@
 
 **This is a work in progress, not ready for production use and not yet part of the official Quasar framework**.
 
-Although this wrapper is intended to be a standalone module it plays nice with the Quasar Express demo template https://github.com/claustres/quasar-templates/tree/express-api. To create your Quasar app starting from this template run: `quasar init claustres/quasar-templates#express-api <app-folder-name>`, then jump into your app folder.
+Although this wrapper is intended to be a standalone module it plays nice with the Quasar Express demo template https://github.com/claustres/quasar-templates/tree/express-api. To create your Quasar app starting from this template run: `quasar init @claustres/quasar-templates#express-api <app-folder-name>`, then jump into your app folder.
 
 ## Wrap your Quasar app
-From your root app dir: `$ quasar wrap api express`
+When integrated to Quasar from your root app dir you will have to run: `$ quasar wrap api express`
+
+**While it is a work in progress, you can wrap it from your root app dir using**: `quasar init @quasarframework/quasar-wrapper-express-api#dev api`
 
 Then from the backend wrapper folder called **api** install the server-side app dependencies: `$ npm install`
 
@@ -37,6 +39,7 @@ The key points are the following:
 - npm **prod** script runs the server in production mode and serve client production version with Express
 - **nodemon** is used as development dependency to watch changes in server side code and restart transpilation/server when required
 - server-side **debug** mode in node is activated by default for development
+- includ basic Express **routes** as an example
 
 ## License
 
