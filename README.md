@@ -29,7 +29,7 @@ From the backend wrapper folder run the server-side app: `$ npm run prod`
 > Mainly server-side code with babel integration to support ES2017.
 
 The key points are the following:
-- **src** directory host server-side code with a server entry point **index.js** that simply start an Express server
+- **src** directory host server-side code with a server entry point **main.js** that simply start an Express server
 - **babel CLI** is used as a development dependency to transpile server-side code
 - **dist** output directory is for transpiled backend files
 - npm **clean** script cleans up transpiled code
