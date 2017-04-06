@@ -1,17 +1,23 @@
 ![Quasar Framework logo](http://quasar-framework.org/images/logo/xxhdpi.png)
 
 # Quasar Framework Express API Wrapper
-> Build full web apps with Quasar/Express as a frontend/backend solution. Currently **work in progress**.
+> Build full web apps with Quasar/Express as a frontend/backend solution.
 
-## Wrap Quasar App
-`$ quasar wrap api express`
+**This is a work in progress, not ready for production use and not yet part of the official Quasar framework**.
+
+Although this wrapper is intended to be a standalone module it plays nice with the Quasar Express demo template https://github.com/claustres/quasar-templates/tree/express-api. To create your Quasar app starting from this template run: `quasar init claustres/quasar-templates#express-api <app-folder-name>`, then jump into your app folder.
+
+## Wrap your Quasar app
+From your root app dir: `$ quasar wrap api express`
+
+Then from the backend wrapper folder called **api** install the server-side app dependencies: `$ npm install`
 
 ## Running for development
 Make sure you keep running your frontend Quasar app (from root project folder): `$ quasar dev`
 
 Then from the backend wrapper folder run the server-side app: `$ npm run dev`
 
-## Bulding for production
+## Building for production
 Build your frontend Quasar app (from root project folder): (`$ quasar build`).
 
 Then from the backend wrapper folder build the server-side app: `$ npm run build`
