@@ -1,4 +1,4 @@
-![Quasar Framework logo](http://quasar-framework.org/images/logo/xxhdpi.png)
+![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
 # Quasar Framework Express API Wrapper
 > Build full web apps with Quasar/Express as a frontend/backend solution.
